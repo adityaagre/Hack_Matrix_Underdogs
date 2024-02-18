@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="/footcap-master/assets/css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Event Cards</title>
+ <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="160" height="50" alt="Footcap logo">
+      </a>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="190" height="50" alt="Footcap logo">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="eventpage.html" class="navbar-link">Events</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="club.html" class="navbar-link">Clubs</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="" class="navbar-link">Recruitment</a>
+          </li>
+
+          
+        </ul>
+
+        <ul class="nav-action-list">
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Search</span>
+            </button>
+          </li>
+
+          <li>
+            <a href="#" class="nav-action-btn">
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Login / Register</span>
+            </a>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+    .container {
+        max-width: 800px;
+        /* margin: 20px auto; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card {
+        width: calc(33.33% - 20px);
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+    }
+    .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .card-content {
+        padding: 20px;
+    }
+    .card-title {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .card-description {
+        color: #666;
+    }
+    .apply-button {
+        display: inline-block;
+        padding: 8px 16px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .apply-button:hover {
+        background-color: #0056b3;
+    }
+</style>
+<body>
+
+<div class="container" style="margin-top: 100px;">
+    <div class="card">
+        <img src="https://www.dscakgec.org/static/media/WOW.2e3595aa6caf65e6d42b.jpg" alt="Event 1">
+        <div class="card-content">
+            <h3 class="card-title">Event 1</h3>
+            <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="apply-button">Apply Now</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="data:image/jpeg;base64,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" alt="Event 1">
+        <div class="card-content">
+            <h3 class="card-title">Event 1</h3>
+            <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="apply-button">Apply Now</button>
+        </div>
+    </div> 
+    <div class="card">
+        <img src="https://www.dscakgec.org/static/media/WOW.2e3595aa6caf65e6d42b.jpg" alt="Event 1">
+        <div class="card-content">
+            <h3 class="card-title">Event 1</h3>
+            <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="apply-button">Apply Now</button>
+        </div>
+    </div>   <div class="card">
+        <img src="https://www.dscakgec.org/static/media/WOW.2e3595aa6caf65e6d42b.jpg" alt="Event 1">
+        <div class="card-content">
+            <h3 class="card-title">Event 1</h3>
+            <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="apply-button">Apply Now</button>
+        </div>
+    </div>  
+     <div class="card">
+        <img src="https://www.dscakgec.org/static/media/WOW.2e3595aa6caf65e6d42b.jpg" alt="Event 1">
+        <div class="card-content">
+            <h3 class="card-title">Event 1</h3>
+            <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="apply-button">Apply Now</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://www.dscakgec.org/static/media/WOW.2e3595aa6caf65e6d42b.jpg" alt="Event 1">
+        <div class="card-content">
+            <h3 class="card-title">Event 1</h3>
+            <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="apply-button">Apply Now</button>
+        </div>
+    </div> 
+</div>
+
+</body>
+</html>
