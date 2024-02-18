@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/footcap-master/assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .poster img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .description {
+            flex: 1;
+            margin-left: 20px;
+            text-align: left;
+        }
+
+        .details {
+            flex: 1;
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 10px 0;
+            padding: 0;
+        }
+
+        .apply-btn {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .apply-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header class="header" data-header style="  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    ">
+        <div class="container">
+    
+          <div class="overlay" data-overlay></div>
+    
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="160" height="50" alt="Footcap logo">
+          </a>
+    
+          <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+    
+          <nav class="navbar" data-navbar>
+    
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+    
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.svg" width="190" height="50" alt="Footcap logo">
+            </a>
+    
+            <ul class="navbar-list">
+    
+              <li class="navbar-item">
+                <a href="#" class="navbar-link">Home</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#" class="navbar-link">Events</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#" class="navbar-link">Clubs</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#" class="navbar-link">Recruitment</a>
+              </li>
+    
+              
+            </ul>
+    
+            <ul class="nav-action-list">
+    
+              <li>
+                <button class="nav-action-btn">
+                  <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+    
+                  <span class="nav-action-text">Search</span>
+                </button>
+              </li>
+    
+              <li>
+                <a href="#" class="nav-action-btn">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+    
+                  <span class="nav-action-text">Login / Register</span>
+                </a>
+              </li>
+    
+    
+            </ul>
+    
+          </nav>
+    
+        </div>
+      </header>
+    
+    
+
+    <main class="event-details">
+        <div class="container" style="display: flex;">
+            <div class="poster">
+                <img style="height: 500px; width:400px;" src="https://i.pinimg.com/564x/52/9d/8c/529d8cea6a47eb5c1671751a6b33098d.jpg" alt="Event Poster">
+            </div>
+            <div class="dismain">
+            <div class="description">
+                <h1>Event Name</h1>
+                <p>Description: Lorem ipsum dolor sit Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta deserunt, ad ut, a pariatur voluptatibus hic sapiente aperiam sit quae at nisi voluptatem maiores blanditiis ratione? Veritatis, veniam! Perferendis rerum sit labore quos quia minus atque deleniti possimus? Harum nam expedita voluptatum suscipit, nemo veniam?amet, consectetur adipiscing elit. Sed auctor tortor quis justo ultricies suscipit.</p>
+            </div>
+            <div class="details">
+                <p>Organizer: Organizer Name</p>
+                <p>Time: 12:00 PM - 3:00 PM</p>
+                <p>Location: Event Location</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+        </div>
+        </div>
+            
+            
+        </div>
+       
+    </main>
+</body>
+</html>

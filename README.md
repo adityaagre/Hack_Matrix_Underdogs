@@ -1,15 +1,54 @@
-# Hack_Matrix_Underdogs
+<div align="center">
+  
+  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/footcap)
+  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/footcap?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/footcap?style=social)
+[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
+  [![YouTube Video Views](https://img.shields.io/youtube/views/BsmRYjW4csw?style=social)](https://youtu.be/BsmRYjW4csw)
 
-Team name: UNDERDOGS
+  <br />
+  <br />
 
-Memebers:
-1. Aditya Agre
-2. Amay Chandravanshi
-3. Satyam Mirgane
-4. Aabid
+  <h2 align="center">Footcap - eCommerce website</h2>
 
+  Footcap is fully responsive ecommerce website, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
 
-# Problem Statement:
-Develop a platform for efficient college community management, volunteering Recruitment, and Meaningful Connections.
+  <a href="https://codewithsadee.github.io/footcap/"><strong>➥ Live Demo</strong></a>
 
-Develop a platform for college clubs and communities to manage their organizations and events, recruit new volunteers, and engage with other communities. The platform should offer a seamless way for communities to discover and connect with like-minded volunteers by finding organizations or their interests. Additionally, it should allow volunteers to explore various communities and connect with their preferred community.
+</div>
+
+<br />
+
+### Demo Screeshots
+
+![Footcap Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+
+### Run Locally
+
+To run **Footcap** locally, run this command on your git bash:
+
+Linux and macOS:
+
+```bash
+sudo git clone https://github.com/codewithsadee/footcap.git
+```
+
+Windows:
+
+```bash
+git clone https://github.com/codewithsadee/footcap.git
+```
+
+### Contact
+
+If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+
+### License
+
+This project is **free to use** and does not contains any license.
